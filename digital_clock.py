@@ -29,6 +29,7 @@ clock = Tk()
 clock.title('Digital Clock')
 clock.geometry('1000x500')
 clock.config(bg='#006666')
+clock.iconbitmap('E:\Python\Python Simple Projects\Digital Clock\img.ico')
 
 lab_hr = Label(clock, text='00', font=('Arial', 60, 'bold'), bg='#003333', fg='white')
 lab_hr.place(x=120, y=45, height=110, width=100)
